@@ -366,3 +366,5 @@ else()
     --expt-extended-lambda --expt-relaxed-constexpr
     $<$<BOOL:${FAISS_ENABLE_CUVS}>:-Xcompiler=${OpenMP_CXX_FLAGS}>>)
 endif()
+
+# Update: 2025-10-13
